@@ -16,15 +16,7 @@ void printCyan(const std::string& text) {
 }
 
 int main() {
-    std::string a;
-    std::string b;
-    std::string c;
-    std::string d;
-    std::string e;
-    std::string f;
-    std::string g;
-    std::string h;
-    std::string i;
+    std::string a,b,c,d,e,f,g,h,i;
     char playAgain;
 
     do {
@@ -117,6 +109,5 @@ int main() {
         playAgain = toupper(playAgain);
 
     } while (playAgain == 'Y');
-
     return 0;
 }
